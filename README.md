@@ -23,7 +23,7 @@ This folder will contain the required files to make the generic IOC
 into a specific IOC instance.
 
 For the details of the contents of the config folder see the default
-[start.sh](./iocs/blxxi-ea-ioc-01/config/start.sh)
+[start.sh](./iocs/bl46p-ea-ioc-01/config/start.sh)
 
 
 How To Copy This Template Project
@@ -31,7 +31,7 @@ How To Copy This Template Project
 
 This is a template project. You can create your own beamline/domain from this
 template by clicking the green "Use this template" button on the
-[GitHub page](https://github.com/epics-containers/blxxi-template) and then
+[GitHub page](https://github.com/epics-containers/bl46p-template) and then
 choosing `Create a new repository`. You will be asked to specify the name
 and GitHub organization for the new repository.
 
@@ -44,8 +44,8 @@ If you don't want to use GitHub, you can create you copy as follows:
 - clone this template repository and replace its remote with the new repository
   uri
 
-  - git clone git@github.com:epics-containers/blxxi-template.git
-  - mv blxxi-template `new-repository-name`
+  - git clone git@github.com:epics-containers/bl46p-template.git
+  - mv bl46p-template `new-repository-name`
   - cd `new-repository-name`
   - git remote set-url origin `paste new repository uri here`
   - git push -u origin main
